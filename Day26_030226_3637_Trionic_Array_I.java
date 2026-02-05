@@ -1,5 +1,5 @@
 public class Day26_030226_3637_Trionic_Array_I {
-    public boolean isTrionic(int[] nums){
+    public boolean isTrionic(int[] nums) {
         int n = nums.length;
         if(n == 3) return false;
         int[] pattern = new int[3];
